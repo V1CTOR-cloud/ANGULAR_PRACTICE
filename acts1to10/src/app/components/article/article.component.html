@@ -1,0 +1,8 @@
+<div class="article">
+    <div class="card" *ngFor="let item of pics">
+        <div class="image" [style.backgroundImage]="'url('+ item.url +')'">
+        </div>
+        <small>{{item.name}}</small>
+        <p>{{item.description}}</p>
+    </div>
+</div>

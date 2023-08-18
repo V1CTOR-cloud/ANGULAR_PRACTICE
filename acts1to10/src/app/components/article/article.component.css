@@ -1,0 +1,34 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+
+.card {
+    height: 80vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+p {
+    width: 80%;
+    font-size: 1.1rem;
+}
+
+.image {
+    height: 60%;
+    width: 80%;
+    background-image: url(https://images.pexels.com/photos/17827719/pexels-photo-17827719/free-photo-of-ijsland.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+    background-size: cover;
+}
